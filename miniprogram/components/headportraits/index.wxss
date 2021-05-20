@@ -1,0 +1,57 @@
+/* components/headportraits/index.wxss */
+.headportraits {
+  width: 100%;
+  height: 100%;
+}
+
+.headportraits_detail {
+  height: 600rpx;
+}
+
+.headportraits_detail_text {
+  height: 60rpx;
+  margin-left: 2%;
+}
+
+.headportraits_detail_box {
+  height: 500rpx;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.headportraits_detail_content {
+  width: 226rpx;
+  height: 226rpx;
+  border-radius: 16rpx;
+  border: 2rpx solid lightpink;
+  position: relative;
+
+}
+
+.headportraits_detail_content_name {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 225rpx;
+  height: 48rpx;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 18rpx;
+  font-size: 32rpx;
+  font-family: Source Han Sans CN;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+.headportraits_detail_hot{
+  width: 100%;
+  height: 1000rpx;
+}
+.headportraits_detail_hot_content{
+  width: 226rpx;
+  height: 226rpx;
+  border-radius: 16rpx;
+  border: 2rpx solid lightpink;
+  position: relative;
+  margin-top: 40rpx;
+}

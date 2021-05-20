@@ -1,0 +1,18 @@
+<!--components/headportraits/index.wxml-->
+<view class="headportraits">
+  <view class="headportraits_detail">
+    <view class="headportraits_detail_text">分类</view>
+    <view class="headportraits_detail_box">
+      <view class="headportraits_detail_content" wx:for="{{classifyData}}" wx:key="{{item.id}}">
+        <view class="headportraits_detail_content_name">{{item.name}}</view>
+      </view>
+    </view>
+  </view>
+  <view class="headportraits_detail_hot">
+    <view class="headportraits_detail_text">热门</view>
+    <view class="headportraits_detail_box">
+      <view class="headportraits_detail_hot_content" wx:for="{{hotData}}" wx:key="{{item}}">
+      </view>
+    </view>
+  </view>
+</view>

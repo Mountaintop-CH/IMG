@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "headportraits":"../../components/headportraits",
+    "background":"../../components/background",
+    "meme":"../../components/meme",
+    "officialdocuments":"../../components/officialdocuments",
+    "wallpaer":"../../components/wallpaer",
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index"
+  }
+}
