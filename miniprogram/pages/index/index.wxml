@@ -1,6 +1,6 @@
-<view class="mine">
+<view class="index_page">
   <!-- tab标签页 -->
-  <view class="tab">
+  <view class="tab_detail">
     <van-tabs animated sticky >
       <van-tab title="头像"> <headportraits></headportraits></van-tab>
       <van-tab title="壁纸"> <wallpaer></wallpaer></van-tab>
@@ -8,27 +8,5 @@
       <van-tab title="文案"><officialdocuments></officialdocuments></van-tab>
       <van-tab title="表情包"> <meme></meme></van-tab>
     </van-tabs>
-    <!-- <view wx:for="{{tabData}}" bindtap="onTab" data-id="{{item.id}}" data-ind="{{index}}"
-      class="{{id==item.id?'on_tab_item':'tab_item'}}" wx:key="index">{{item.name}}
-      <view class="{{id==item.id?'on_tab_item_border':''}}"></view>
-    </view> -->
   </view>
-  <!-- tab对应的详情 打算使用scroll-view实现tab切换，有一定的动画效果，看实际体验在考虑是否合适 -->
-  <!-- <view class="tabDetail">
-    <view wx:if="{{id=='a1'}}" class='scroll-view-item'>
-      <headportraits></headportraits>
-    </view>
-    <view wx:elif="{{id=='a2'}}" class='scroll-view-item'>
-      <wallpaer></wallpaer>
-    </view>
-    <view wx:elif="{{id=='a3'}}" class='scroll-view-item'>
-      <background></background>
-    </view>
-    <view wx:elif="{{id=='a4'}}" class='scroll-view-item'>
-      <officialdocuments></officialdocuments>
-    </view>
-    <view wx:elif="{{id=='a5'}}" class='scroll-view-item'>
-      <meme></meme>
-    </view>
-  </view> -->
 </view>

@@ -1,60 +1,12 @@
-/* tab标签页 */
-.tab {
-  height: 87rpx;
-  width: 100%;
+.index_page{
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-size: 30rpx;
-  font-weight: bold;
-  color: #666666;
-}
-
-.tab_item {
-  height: 100%;
-  font-size: 30rpx;
-  font-weight: bold;
-  text-align: center;
-  line-height: 87rpx;
-  color: #666666;
-  position: relative;
-}
-
-.on_tab_item {
-  height: 100%;
-  font-size: 40rpx;
-  font-weight: bold;
-  line-height: 87rpx;
-  color: #00BBD0;
-  position: relative;
-}
-
-.on_tab_item_border {
-  width: 38rpx;
-  height: 8rpx;
-  background: #00BBD0;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform:translateX(-50%) ;
-}
-
-/* tab详情区域 */
-.tabDetail {
-  margin-top: 44rpx;
-  margin-bottom: 100rpx;
-}
-
-.tabDetail .scroll-x-view {
+  flex-direction: column;
   width: 100%;
   height: 100%;
-  overflow: auto;
-  white-space: nowrap;
+  flex: 1;
 }
-
-.tabDetail .scroll-x-view .scroll-view-item {
-  width: 750rpx;
-  border: 2rpx solid lightcyan;
+/* tab标签页 */
+.tab_detail {
   height: 100%;
-  display: inline-block;
+  width: 100%;
 }
