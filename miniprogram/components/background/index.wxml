@@ -1,2 +1,20 @@
 <!--components/background/index.wxml-->
-<text>components/background/index.wxml</text>
+<view class="background">
+  <view class="background_detail">
+      <!-- 热门推荐 -->
+  <view class="headportraits_detail_hot">
+    <view class="headportraits_detail_text">热门推荐</view>
+    <view class="headportraits_detail_hot_box">
+      <view class="headportraits_detail_hot_content" wx:for="{{hotData}}" wx:key="{{item}}">
+        <view class="headportraits_detail_hot_content_img">
+        <image src="https://img01.yzcdn.cn/vant/cat.jpeg"></image>
+        </view>
+        <view class="headportraits_detail_hot_content_text">
+          <text>作品名</text>
+          <view class="like"><van-icon size="34rpx" name="like-o"/><text class="like_text"> 999+</text></view>
+        </view>
+      </view>
+    </view>
+  </view>
+  </view>
+</view>

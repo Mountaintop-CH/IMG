@@ -1,7 +1,7 @@
 <view class="index_page">
   <!-- tab标签页 -->
   <view class="tab_detail">
-    <van-tabs animated sticky >
+    <van-tabs animated sticky  swipeable title-active-color="#00BBD0" line-width="40rpx" >
       <van-tab title="头像"> <headportraits></headportraits></van-tab>
       <van-tab title="壁纸"> <wallpaer></wallpaer></van-tab>
       <van-tab title="背景"><background></background></van-tab>

@@ -1,1 +1,34 @@
 /* components/officialdocuments/index.wxss */
+.officialdocuments{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin-bottom: 100rpx;
+}
+.headportraits_detail_text {
+  height: 60rpx;
+  margin-left: 2%;
+}
+.officialdocuments_detail_box{
+  width: 100%;
+  height: 140rpx;
+  border: 2rpx solid;
+}
+.officialdocuments_detail_box_detail{
+  width: 702rpx;
+  margin: 0 auto;
+}
+.officialdocuments_detail_box_detail_text{
+  width: 702rpx;
+height: 100rpx;
+background: #eee;
+border-radius: 18rpx;
+}
+.officialdocuments_detail_box_detail_like{
+  width: 702rpx;
+  display: flex;
+  justify-items: flex-end;
+}
+.like_detai{
+  width: 140px;
+}

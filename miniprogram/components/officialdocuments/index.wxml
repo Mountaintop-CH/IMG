@@ -1,2 +1,16 @@
 <!--components/officialdocuments/index.wxml-->
-<text>components/officialdocuments/index.wxml</text>
+<view class="officialdocuments">
+  <view class="officialdocuments_detail">
+    <view class="headportraits_detail_text">热门推荐</view>
+    <view class="officialdocuments_detail_box">
+      <view class="officialdocuments_detail_box_detail">
+        <view class="officialdocuments_detail_box_detail_text"></view>
+        <view class="officialdocuments_detail_box_detail_like">
+          <view class="like_detai"> <text>999+</text>
+          <van-icon size="34rpx" name="like-o" /></view>
+         
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

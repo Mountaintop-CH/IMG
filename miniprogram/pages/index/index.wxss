@@ -10,3 +10,6 @@
   height: 100%;
   width: 100%;
 }
+.tab_detail .van-tabs__line {
+  background-color: #00BBD0 !important;
+}
