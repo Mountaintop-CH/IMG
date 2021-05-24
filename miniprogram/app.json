@@ -14,7 +14,9 @@
     "pages/im/im",
     "pages/im/room/room",
     "pages/mine/mine",
-    "pages/share/index"
+    "pages/share/index",
+    "pages/headportraitsDetail/index",
+    "pages/classifyDetail/index"
   ],
   "window": {
     "backgroundColor": "#BFE2E6",
@@ -47,7 +49,6 @@
         "selectedIconPath": "./images/onmine.png",
         "text": "我的"
       }
-  
     ]
   },
   "sitemapLocation": "sitemap.json"

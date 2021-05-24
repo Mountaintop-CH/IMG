@@ -1,9 +1,7 @@
-<!--components/background/index.wxml-->
-<view class="background">
-  <view class="background_detail">
-    <!-- 热门推荐 -->
+<!--miniprogram/pages/classifyDetail/index.wxml-->
+<view class="classifyDetail">
+  <view class="classifyDetail_detail">
     <view class="headportraits_detail_hot">
-      <view class="headportraits_detail_text">热门推荐</view>
       <view class="headportraits_detail_hot_box">
         <view class="headportraits_detail_hot_content" wx:for="{{hotData}}" wx:key="{{item}}">
           <view class="headportraits_detail_hot_content_img">

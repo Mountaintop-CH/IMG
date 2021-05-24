@@ -2,13 +2,16 @@
 <view class="officialdocuments">
   <view class="officialdocuments_detail">
     <view class="headportraits_detail_text">热门推荐</view>
-    <view class="officialdocuments_detail_box">
+    <view class="officialdocuments_detail_box" wx:for="hotData" wx:key="index">
       <view class="officialdocuments_detail_box_detail">
-        <view class="officialdocuments_detail_box_detail_text"></view>
+        <view class="officialdocuments_detail_box_detail_text">
+          <text>奔赴山海，只为与你相遇，奔赴山海，为与你相遇，只为与你相遇，奔赴山海，为与你相遇</text>
+        </view>
         <view class="officialdocuments_detail_box_detail_like">
+          <view></view>
           <view class="like_detai"> <text>999+</text>
-          <van-icon size="34rpx" name="like-o" /></view>
-         
+            <van-icon size="34rpx" name="like-o" />
+          </view>
         </view>
       </view>
     </view>

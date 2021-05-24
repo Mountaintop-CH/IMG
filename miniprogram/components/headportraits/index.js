@@ -38,6 +38,18 @@ Component({
    * 组件的方法列表
    */
   methods: {
+    toimgDetail(){
+      console.log("图片详情");
+      wx.navigateTo({
+        url: '../../pages/headportraitsDetail/index'
+      })
+    },
+    toClassifyDeatil(){
+      console.log("分类详情");
 
+      wx.navigateTo({
+        url: '../../pages/classifyDetail/index'
+      })
+    }
   }
 })

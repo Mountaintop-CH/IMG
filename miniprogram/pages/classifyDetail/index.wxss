@@ -1,9 +1,14 @@
-/* components/meme/index.wxss */
-.meme{
+/* miniprogram/pages/classifyDetail/index.wxss */
+.classifyDetail{
   width: 100%;
   height: 100%;
   overflow: hidden;
   margin-bottom: 100rpx;
+  background-color: #fff;
+}
+.classifyDetail_detail{
+  width: 100%;
+  height: 100%;
 }
 /* 热门 */
 .headportraits_detail_hot {

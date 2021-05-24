@@ -5,7 +5,7 @@
     <view class="headportraits_detail_text">分类</view>
     <view class="headportraits_detail_box">
       <view class="headportraits_detail_content" wx:for="{{classifyData}}" wx:key="{{item.id}}">
-        <image src="https://img01.yzcdn.cn/vant/cat.jpeg"></image>
+        <image src="https://img01.yzcdn.cn/vant/cat.jpeg" bindtap="toClassifyDeatil"></image>
         <view class="headportraits_detail_content_name">{{item.name}}</view>
       </view>
     </view>
@@ -15,7 +15,7 @@
     <view class="headportraits_detail_text">热门推荐</view>
     <view class="headportraits_detail_hot_box">
       <view class="headportraits_detail_hot_content" wx:for="{{hotData}}" wx:key="{{item}}">
-        <view class="headportraits_detail_hot_content_img">
+        <view class="headportraits_detail_hot_content_img" bindtap="toimgDetail">
         <image src="https://img01.yzcdn.cn/vant/cat.jpeg"></image>
         </view>
         <view class="headportraits_detail_hot_content_text">

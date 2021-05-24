@@ -1,0 +1,53 @@
+<!--miniprogram/pages/headportraitsDetail/index.wxml-->
+<view class="headportraitsDetail">
+  <view class="headportraitsDetail_content">
+    <view class="head_img_box">
+      <scroll-view class='scroll-x-view' scroll-x='true'>
+        <view class='scroll-view-item bg_red'></view>
+        <view class='scroll-view-item bg_blue'></view>
+        <view class='scroll-view-item bg_green'></view>
+        <view class='scroll-view-item bg_yellow'></view>
+      </scroll-view>
+    </view>
+    <!-- 作品介绍 -->
+    <view class="head_img_introduce_box">
+      <view class="name">作品名</view>
+      <view class="introduce">简述：详情详情详情详情详情详情详情详情详情详情 详情详情详情详情。</view>
+      <view class="like_box">
+        <text></text>  <view class="like"><van-icon size="34rpx" name="like-o"/><text class="like_text"> 999+</text></view>
+      </view>
+    </view>
+    <!-- 作者 -->
+    <view class="author_box">
+      <view class="title">作者</view>
+      <view class="author_information">
+        <view class="author_headimg"></view>
+        <view class="author_content">
+          <view class="author_name">昵称</view>
+          <view class="author_products">24个作品</view>
+        </view>
+        <view class="focus_author">
+          <view class="focus_author_btn">关注</view>
+        </view>
+      </view>
+    </view>
+    <!-- 猜你喜欢 -->
+    <view class="guess_like">
+    <view class="headportraits_detail_hot">
+      <view class="headportraits_detail_text">猜你喜欢</view>
+      <view class="headportraits_detail_hot_box">
+        <view class="headportraits_detail_hot_content" wx:for="{{hotData}}" wx:key="{{item}}">
+          <view class="headportraits_detail_hot_content_img">
+            <image src="https://img01.yzcdn.cn/vant/cat.jpeg"></image>
+          </view>
+          <view class="headportraits_detail_hot_content_text">
+            <text>作品名</text>
+            <view class="like">
+              <van-icon size="34rpx" name="like-o" /><text class="like_text"> 999+</text></view>
+          </view>
+        </view>
+      </view>
+    </view>
+    </view>
+  </view>
+</view>
